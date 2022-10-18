@@ -1,0 +1,83 @@
+/* Escena 3 */
+.EscenaFondo3 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: url(../Imagenes/IMG-Escenas/Escena_Fondo3.png);
+    width: 1280px;
+    height: 720px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .SamuraiFrente {
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+  .SMCartero {
+    bottom: 40px;
+    cursor: pointer;
+    left: 130px;
+}
+
+.EscenaFondo4 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: url(../Imagenes/IMG-Escenas/EscenaFondo4.png);
+    width: 1280px;
+    height: 720px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .ManoCarta {
+    bottom: -800px;
+    cursor: pointer;
+    animation: Puertaesc2 5s forwards linear;
+}
+  
+
+  @keyframes Puertaesc2 {
+    from {
+        bottom: -800px;
+    }
+    to {
+      bottom: -100px;
+    }
+  }
+
+  .EscenaFondo5 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: url(../Imagenes/IMG-Escenas/EscenaFondo5.png);
+    width: 1280px;
+    height: 720px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .Frente5{
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+
+/* .mov_SamuraiFrente{
+    animation: Samurai 15s steps(2, end) forwards;
+    
+  }
+
+  @keyframes Samurai{
+ 
+    to
+    {
+        background-position: -845px;
+        
+    }
+ } */
+/* Fin Escena 3 */

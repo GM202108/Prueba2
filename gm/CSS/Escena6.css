@@ -1,0 +1,87 @@
+.EscenaFondo6 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: url(../Imagenes/IMG-Escenas/EscenaFondo6.png);
+    width: 1280px;
+    height: 612px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .DetrasSM{
+    bottom: -210px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.mov_DetrasSM{
+    animation: DetrasSM 5s forwards linear;
+
+}
+
+@keyframes DetrasSM {
+    from {
+        bottom: -210px;
+    }
+    to {
+      bottom: -150px;
+      right: 250px;
+    }
+  }
+
+
+  .EscenaFondo7 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: url(../Imagenes/IMG-Escenas/EscenaFondo7.png);
+    width: 1280px;
+    height: 720px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .SamuraiLD{
+    bottom: -100px;
+    left: 100px;
+    cursor: pointer;
+}
+
+.KuchisakeLD{
+    bottom: -100px;
+    right: 100px;
+    cursor: pointer;
+}
+
+.EscenaFondo8 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: url(../Imagenes/IMG-Escenas/EscenaFondo8.png);
+    width: 1280px;
+    height: 720px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .DetrasOEsc8{
+    bottom: -100px;
+    right: 100px;
+    cursor: pointer;
+  }
+
+  .Nubes{
+    top: 0%;
+    animation: Nubes 10s linear infinite;
+  }
+
+  @keyframes Nubes {
+    from{
+        left: -1300px;
+    }
+    to{
+       left: 1501px;
+    }
+  }
+

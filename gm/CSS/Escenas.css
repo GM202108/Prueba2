@@ -1,0 +1,117 @@
+/* Escena 1 */
+.EscenaFondo1 {
+  display: grid;
+  place-items: center;
+  position: relative;
+  background: url(../Imagenes/IMG-Escenas/EscenaFondo1.png);
+  width: 1280px;
+  height: 720px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.Puertaizquierda {
+  width: 396px;
+  height: 702px;
+  left: 250px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.mov_Puertaizquierda {
+  animation: PuertaL 5s forwards linear;
+}
+
+@keyframes PuertaL {
+  from {
+    left: 250px;
+  }
+  to {
+    left: -100px;
+  }
+}
+
+.Puertaderecha {
+  width: 396px;
+  height: 702px;
+  right: 250px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.mov_Puertaderecha {
+  animation: PuertaR 5s forwards linear;
+}
+
+@keyframes PuertaR {
+  from {
+    right: 250px;
+  }
+  to {
+    right: -100px;
+  }
+}
+/*Fin escena 1 */
+
+/* Escena 2 */
+.EscenaFondo2 {
+  display: grid;
+  place-items: center;
+  position: relative;
+  background: url(../Imagenes/IMG-Escenas/EscenaFondo2.png);
+  width: 1280px;
+  height: 612px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.Paredizquierda {
+  width: 497px;
+  height: 593px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.Parederecha {
+  width: 566px;
+  height: 598px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.Cartero {
+  width: 625px;
+  height: 247px;
+  top: 21px;
+  right: 288px;
+}
+
+
+
+.PersonajeEspalda {
+    width: 349px;
+    height: 689px;
+    bottom: -190px;
+    cursor: pointer;
+  }
+
+  .mov_Espalda {
+    animation: PersonajeEspalda 5s forwards linear;
+  }
+
+  @keyframes PersonajeEspalda {
+    from {
+      bottom: -190px;
+      width: 349px;
+      height: 689px;
+    }
+    to {
+        bottom: -100px;
+        width: 249px;
+        height: 489px;
+    }
+  }
+
+/*Fin Escena 2 */
+
+

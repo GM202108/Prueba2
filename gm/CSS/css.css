@@ -1,0 +1,53 @@
+/* Tipografias importadas */
+@font-face {
+  font-family: "KGDoYouLoveMe";
+  src: url('../Tipografias/kg_do_you_love_me/KGDoYouLoveMe.ttf');
+}
+
+@font-face {
+    font-family: "Hello\ Avocado";
+    src: url('../Tipografias/Hello\ Avocado.ttf');
+  }
+
+  @font-face {
+    font-family: "KGRedHands";
+    src: url('../Tipografias/kg_red_hands/KGRedHands.ttf');
+  }
+
+/* Final tipografias importadas */
+
+/* Titulos */
+h1 {
+  font-family: "KGDoYouLoveMe";
+}
+
+/* Parrafos */
+p{
+    font-family: Hello\ Avocado;
+    font-size: 20px;
+}
+
+/* Estilo tipografias Registro+++ - TP estilo de Parrafo */
+.tp-style-text{
+    font-family: Hello\ Avocado;
+    font-size: 20px;
+}
+
+/* Estilo tipografias - TP estilo de botones nav */
+.tp-style-nav{
+font-family: "KGRedHands";
+}
+
+/*  Color de seccion1 */
+.Parte4 {
+  background-color: #840909;
+}
+/* Color de seccion2 */
+.Final {
+  background-color: black;
+}
+
+/* Alinear textos */
+.text_alineacion {
+  text-align: justify;
+}

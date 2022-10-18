@@ -1,0 +1,20 @@
+.PuertaEsc2 {
+    width: 162px;
+    height: 245px;
+    top: 21px;
+    left: 538px;
+    cursor: pointer;
+  }
+  
+  .mov_Puertaesc2 {
+  animation: Puertaesc222 5s forwards linear;
+  }
+  
+  @keyframes Puertaesc222 {
+    from {
+      left: 538px;
+    }
+    to {
+      left: 380px;
+    }
+  }

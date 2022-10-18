@@ -1,0 +1,60 @@
+.EscenaFondo9 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: url(../Imagenes/IMG-Escenas/EscenaFondo9.png);
+    width: 1280px;
+    height: 720px;
+    border-radius: 50px;
+    overflow: hidden;
+    animation: Fondo 10s linear infinite;
+  }
+
+  
+
+  @keyframes Fondo{
+    100%{
+        background-position-x: -1301px;
+    }
+}
+
+.Sangre{
+    animation: Sangre 2s linear infinite;
+    transition: 2s;
+}
+
+@keyframes Sangre{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.Corriendo{
+    position: absolute;
+    bottom: -58px;
+    left: 0px;
+    width: 341px;
+    height: 415px;
+    background: url(../Imagenes/IMG-Escenas/Correr.png);
+    animation: Samurai 2s steps(9) infinite;
+}
+
+@keyframes Samurai{
+   from
+   {
+    background-position: 0;
+   }
+   to
+   {
+       background-position: -3073px;
+   }
+}
